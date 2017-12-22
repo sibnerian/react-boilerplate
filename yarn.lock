@@ -4729,7 +4729,7 @@ progress@^2.0.0:
   dependencies:
     asap "~2.0.3"
 
-prop-types@^15.5.10:
+prop-types@15.5.10, prop-types@^15.5.10:
   version "15.5.10"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.5.10.tgz#2797dfc3126182e3a95e3dfbb2e893ddd7456154"
   dependencies:
@@ -4880,6 +4880,12 @@ react-proxy@^3.0.0-alpha.0:
   resolved "https://registry.yarnpkg.com/react-proxy/-/react-proxy-3.0.0-alpha.1.tgz#4400426bcfa80caa6724c7755695315209fa4b07"
   dependencies:
     lodash "^4.6.1"
+
+react-router-prop-types@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/react-router-prop-types/-/react-router-prop-types-0.0.2.tgz#3ec26308b751734872f4e3051e2c9ac7ba53cd7d"
+  dependencies:
+    prop-types "15.5.10"
 
 react-universal-component@^2.5.1:
   version "2.5.5"

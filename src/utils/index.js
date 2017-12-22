@@ -6,12 +6,12 @@ export const pages = [
   'Example',
   'ReduxFirstRouter',
   'Universal',
-  'FaceySpacey'
-]
+  'FaceySpacey',
+];
 
-export const nextIndex = index => ++index % pages.length
+export const nextIndex = index => (index + 1) % pages.length;
 
-export const indexFromPath = path => {
-  path = path === '/' ? '/Foo' : path
-  return pages.indexOf(path.substr(1))
-}
+export const indexFromPath = (rawPath) => {
+  const path = (rawPath === '/' ? '/Foo' : rawPath).substr(1);
+  return pages.indexOf(path);
+};
